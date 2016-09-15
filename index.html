@@ -2,22 +2,25 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<!-- Page Content -->
+<div id="page-content-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 about">
+                <h3>
+                Hi, my name is <strong>{{ site.author.name }}</strong> and I'm a Software Engineer from Portugal.
+								<br><br>
+                I just finished my M.Sc Degree in Software Engineering at <a href="http://www.uc.pt/en">University of Coimbra</a> in Portugal, and I'm currently looking for a job as a Web Developer in the Netherlands.
+								<br><br>
+								I love programming and learn new things, specially when it comes to my big passion, web development. My hobbies go from listen and playing music, to watch movies and series as well and doing sports.
+								<br><br>
+								In case you are interested and want to learn more about what I have been doing, you can check my <a href="{{ site.baseurl }}/projects.html">projects</a>, <a href="{{ site.baseurl }}/blog.html">blog</a> and also my <a href="{{ site.baseurl }}/volunteer.html">volunteer work</a>.
+								<br><br>
+								If you want to reach out to me, send me an email to <a href="mailto:micaelpreis@gmail.com">micaelpreis@gmail.com</a>.
+                </h3>
+            </div>
+        </div>
+    </div>
 </div>
+
+

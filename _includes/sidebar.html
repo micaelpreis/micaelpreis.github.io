@@ -1,0 +1,35 @@
+<!-- Sidebar -->
+<div id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <li>
+    <img src="{{ "/assets/images/avatar.jpg" | prepend: site.baseurl }}" class="img-circle" alt="Cinque Terre" width="225" height="225">
+    </li>
+
+    <li><h1>{{ site.author.name }}</h1></li>
+    <li><h4>{{ site.author.profession }}</h4></li>
+
+    <hr/>
+
+    <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+    <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
+    <li><a href="{{ site.baseurl }}/volunteer.html">Volunteer Work</a></li>
+    <li><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
+
+    <hr/>
+
+    <li>
+      <div class="social-wrapper">
+        <a href="{{ site.author.github }}"><i class="fa fa-github"></i></a>
+        <a href="{{ site.author.linkedin }}"><i class="fa fa-linkedin"></i>
+        <a href="{{ site.author.twitter }}"><i class="fa fa-twitter"></i></a>
+        <a href="{{ site.author.mail }}"><i class="fa fa-envelope"></i></a>
+      </div>
+    </li>
+
+    <li>
+      <div class="footer">
+        © 2016 Micael Reis. All rights reserved.
+      </div>
+    </li>
+  </ul>
+</div>

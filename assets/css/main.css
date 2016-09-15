@@ -1,0 +1,21 @@
+/* Fonts */
+
+* {
+	font-family: Helvetica Neue;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.about h3 {
+	padding-top: 50px;
+	font-weight: 300;
+	line-height: 50px;
+}
+
+.about h3 strong {
+	color: black;
+	padding: 0 .2em;
+	background-color: lightgrey;
+}
