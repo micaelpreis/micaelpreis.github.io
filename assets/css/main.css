@@ -8,13 +8,13 @@ body {
 	overflow-x: hidden;
 }
 
-.about h3 {
-	padding-top: 30px;
+.about h4 {
+	padding-top: 50px;
 	font-weight: 300;
-	line-height: 50px;
+	line-height: 40px;
 }
 
-.about h3 strong {
+.about h4 strong {
 	color: black;
 	padding: 0 .2em;
 	background-color: lightgrey;

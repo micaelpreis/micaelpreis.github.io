@@ -46,7 +46,7 @@
     bottom: 20px;
     width: 400px;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
@@ -57,13 +57,13 @@
 }
 
 .sidebar-nav li {
-    line-height: 50px;
+    line-height: 45px;
 }
 
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 200;
     color: black;
 }
@@ -79,17 +79,17 @@
 }
 
 .sidebar-nav li h1 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 100;
 }
 
 .sidebar-nav li h4 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
 
 .sidebar-nav li .social-wrapper a {
-    font-size: 40px;
+    font-size: 30px;
     display: inline;
     padding: 10px;
 }
@@ -100,7 +100,7 @@
 }
 
 .sidebar-nav li .footer {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 250;
     padding-top: 10px;
 }

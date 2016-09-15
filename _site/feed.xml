@@ -4,10 +4,10 @@
     <title>Micael Reis</title>
     <description>Just a personal website of a Software Engineer
 </description>
-    <link>micaelreis.com/</link>
-    <atom:link href="micaelreis.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Sep 2016 19:34:19 +0100</pubDate>
-    <lastBuildDate>Thu, 15 Sep 2016 19:34:19 +0100</lastBuildDate>
+    <link>https://micaelreis.com/</link>
+    <atom:link href="https://micaelreis.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 15 Sep 2016 19:55:26 +0100</pubDate>
+    <lastBuildDate>Thu, 15 Sep 2016 19:55:26 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Wed, 14 Sep 2016 23:26:32 +0100</pubDate>
-        <link>micaelreis.com/jekyll/update/2016/09/14/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">micaelreis.com/jekyll/update/2016/09/14/welcome-to-jekyll.html</guid>
+        <link>https://micaelreis.com/jekyll/update/2016/09/14/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://micaelreis.com/jekyll/update/2016/09/14/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
