@@ -1,23 +1,47 @@
 #wrapper {
     padding-left: 0;
-    overflow:hidden;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 400px;
 }
 
 #sidebar-wrapper {
-    left: 0px;
-    width: 400px;
+    z-index: 1000;
+    position: fixed;
+    left: 400px;
+    width: 0;
     height: 100%;
-    margin-left: 0px;
+    margin-left: -400px;
+    overflow-y: auto;
     background: white;
-    float: left;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 400px;
 }
 
 #page-content-wrapper {
+    width: 100%;
+    position: absolute;
     padding: 15px;
-    overflow: hidden;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -400px;
 }
 
 .sidebar-nav {
+    position: absolute;
     top: 20px;
     bottom: 20px;
     width: 400px;
@@ -79,4 +103,32 @@
     font-size: 12px;
     font-weight: 250;
     padding-top: 10px;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 400px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 400px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
 }

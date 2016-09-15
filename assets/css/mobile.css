@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+    #sidebar-wrapper {
+        float: none;
+        width:auto;
+    }
+
+    .sidebar-nav {
+        border-right: none;
+    }
+
+    .footer {
+        border-bottom: 1px solid lightgrey;
+    }
+
+    .home h4 {
+        padding-top: 0px;
+    }
+    .page {
+        padding-top: 0px;
+    }
+}
