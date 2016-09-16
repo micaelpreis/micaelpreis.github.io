@@ -1,11 +1,11 @@
 @media screen and (max-width: 768px) {
     #sidebar-wrapper {
         float: none;
-        width:auto;
+        width: auto;
     }
 
     .sidebar-nav {
-        border-right: none;
+        border: none;
     }
 
     .footer {

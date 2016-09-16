@@ -1,6 +1,7 @@
 #wrapper {
     padding-left: 0;
     overflow:hidden;
+    height: 100%;
 }
 
 #sidebar-wrapper {
@@ -18,10 +19,10 @@
 }
 
 .sidebar-nav {
-    top: 20px;
-    bottom: 20px;
+    height: 100%;
     width: 400px;
     margin: 0 auto;
+    margin-top: 20px;
     padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
@@ -38,14 +39,12 @@
 
 .sidebar-nav li a {
     display: block;
-    text-decoration: none;
     font-size: 22px;
     font-weight: 200;
     color: black;
 }
 
 .sidebar-nav li a:hover {
-    text-decoration: none;
     color: darkgrey;
 }
 
@@ -68,11 +67,6 @@
     font-size: 30px;
     display: inline;
     padding: 10px;
-}
-
-.sidebar-nav hr {
-    border: none;
-    border-bottom: 1px solid lightgrey;
 }
 
 .sidebar-nav li .footer {

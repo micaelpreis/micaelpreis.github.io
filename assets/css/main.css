@@ -8,6 +8,19 @@ body {
 	height:100%;
 }
 
+hr {
+	border: none;
+  border-bottom: 1px solid lightgrey;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
 /* Home */
 
 .home h4 {
@@ -22,13 +35,94 @@ body {
 	background-color: lightgrey;
 }
 
-/* Projects */
+/* Projects / Blog / Volunteer Work */
 
 .page {
 	padding-top: 30px;
 }
 
 .page-title {
+	width: 100%;
+	display: inline-block;
+}
+
+.page-title h1 {
 	line-height: 40px;
 	font-weight: 300;
+	width: 50%;
+	float: left;
+}
+
+.page-title i {
+	float: right;
+	margin-top: 27px;
+	margin-bottom: 0px;
+	font-size: 30px;
+	color: black;
+}
+
+.page-title i:hover {
+	color: darkgrey;
+}
+
+.year {
+	font-weight: 100;
+	line-height: 40px;
+}
+
+/* Blog */
+
+.post-title {
+	font-weight: 400;
+	font-size: 26px;
+	color: black;
+}
+
+.post-title:hover {
+	color: gray;
+}
+
+.post-data {
+	padding-left: 5px;
+	font-size: 20px;
+	font-weight: 300;
+	color: gray;
+}
+
+/* Project */
+
+.project-title {
+	font-weight: 400;
+	font-size: 26px;
+	color: black;
+}
+
+.project-title:hover {
+	color: gray;
+}
+
+.project-data {
+	padding-left: 5px;
+	font-size: 20px;
+	font-weight: 300;
+	color: gray;
+}
+
+/* Volunteer Work */
+
+.volunteer-title {
+	font-weight: 400;
+	font-size: 26px;
+	color: black;
+}
+
+.volunteer-title:hover {
+	color: gray;
+}
+
+.volunteer-data {
+	padding-left: 5px;
+	font-size: 20px;
+	font-weight: 300;
+	color: gray;
 }
