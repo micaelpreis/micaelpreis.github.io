@@ -77,4 +77,12 @@
         font-size: 22px;
     }
 
+    .post-title {
+        font-size: 20px;
+    }
+
+    .post-data {
+        font-size: 14px;
+    }
+
 }
