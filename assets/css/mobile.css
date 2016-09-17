@@ -6,6 +6,7 @@
 
     .sidebar-nav {
         border: none;
+        width: auto;
     }
 
     .footer {
@@ -18,4 +19,28 @@
     .page {
         padding-top: 0px;
     }
+
+    /* Font Size */
+    .sidebar-nav li a {
+        font-size: 18px;
+    }
+
+    .sidebar-nav li h1 {
+        font-size: 32px;
+        font-weight: 100;
+    }
+
+    .sidebar-nav li h4 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .sidebar-nav li .social-wrapper a {
+        font-size: 24px;
+    }
+
+    .sidebar-nav li .footer {
+        font-size: 10px;
+    }
+
 }
