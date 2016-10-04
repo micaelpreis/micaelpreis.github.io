@@ -10,7 +10,7 @@ body {
 
 hr {
 	border: none;
-  	border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 
 a {
@@ -29,10 +29,8 @@ a:hover {
 	line-height: 40px;
 }
 
-.home h4 strong {
-	color: black;
-	padding: 0 .2em;
-	background-color: lightgrey;
+.home .here {
+	font-size: 26px;
 }
 
 /* Projects / Blog / Volunteer Work */
@@ -61,7 +59,7 @@ a:hover {
 	color: black;
 }
 
-.page-title i:hover {
+.page-title .rss i:hover {
 	color: darkgrey;
 }
 
@@ -78,7 +76,7 @@ a:hover {
 	color: black;
 }
 
-.post-title:hover {
+.link:hover {
 	color: gray;
 }
 
@@ -87,4 +85,60 @@ a:hover {
 	font-size: 20px;
 	font-weight: 300;
 	color: gray;
+}
+
+/* Blog Post */
+
+.blog-post-title {
+	width: 100%;
+	display: inline-block;
+	padding-top: 30px;
+}
+
+.blog-post-title h1 {
+	font-weight: 200;
+	float: left;
+	width: 85%;
+}
+
+.blog-post-links {
+	float: right;
+	margin-top: 22px;
+	font-size: 30px;
+}
+
+.blog-post-links a {
+	color: black;
+	font-weight: 200;
+}
+
+.blog-post-links a:hover {
+	color: darkgrey;
+}
+
+.blog-post-links .go-to-blog {
+	margin-right: 10px;
+}
+
+.blog-post-content h1 {
+	font-weight: 300;
+	font-size: 40px;
+}
+
+.blog-post-content .date {
+	color: gray;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.blog-post-content p {
+	font-weight: 300;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+.blog-post-content img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

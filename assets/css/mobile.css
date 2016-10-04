@@ -4,6 +4,12 @@
         width: auto;
     }
 
+    /*#page-content-wrapper {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border: none;
+    }*/
+
     .sidebar-nav {
         border: none;
         width: auto;

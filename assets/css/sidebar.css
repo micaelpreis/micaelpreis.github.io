@@ -16,6 +16,10 @@
 #page-content-wrapper {
     padding: 15px;
     overflow: hidden;
+    height: 100%;
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+    /*border-left: 1px solid lightgrey;*/
 }
 
 .sidebar-nav {
@@ -45,7 +49,8 @@
 }
 
 .sidebar-nav li a:hover {
-    color: darkgrey;
+    color: white;
+    background-color: black;
 }
 
 .sidebar-nav img {
@@ -54,7 +59,7 @@
 }
 
 .sidebar-nav li img {
-    border: 1px solid lightgrey;
+    border: 5px solid lightgrey;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

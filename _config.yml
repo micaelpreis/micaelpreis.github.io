@@ -4,6 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Just a personal website of a Software Engineer
 url: "https://micaelreis.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
+shorturl: "micaelreis"
 
 # Author Settings
 author:

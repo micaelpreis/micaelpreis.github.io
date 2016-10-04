@@ -5,36 +5,34 @@ title: Blog
 
 <!-- Page Content -->
 <div id="page-content-wrapper">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 page">
-            	<div class="page-title">
-              		<h1>Blog</h1>
-              		<a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i></a>
-            	</div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 page">
+      	<div class="page-title">
+      		<h1>Blog</h1>
+      		<a class="rss" href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i></a>
+      	</div>
 				<hr class="page-hr">
 				<div>
 					{% for post in site.posts %}
-			      		{% unless post.next %}
-			        		<h2 class="year">{{ post.date | date: '%Y' }}</h2>
-		      			{% else %}
-				        	{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-				        	{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-				        	{% if year != nyear %}
-				          		<h2 class="year">{{ post.date | date: '%Y' }}</h2>
-			        		{% endif %}
-				      	{% endunless %}
-				      	<div class="post">
-			        		<a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			        		<span class="post-data">&dash; {{ post.date | date: "%b %d" }}</span> <br>
-				       	 	<p>{{ post.description }}</p>
-				        	<a href="{{ post.url | prepend: site.baseurl }}"> Read More...</a>
-				      	</div>
-				      <br>
-			    	{% endfor %}
-			    </div>
-            </div>
+	      		{% unless post.next %}
+	        		<h2 class="year">{{ post.date | date: '%Y' }}</h2>
+      			{% else %}
+		        	{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+		        	{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+		        	{% if year != nyear %}
+		          	<h2 class="year">{{ post.date | date: '%Y' }}</h2>
+	        		{% endif %}
+		      	{% endunless %}
+		      	<div class="post">
+	        		<a class="post-title link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	        		<span class="post-data">&dash; {{ post.date | date: "%b %d" }}</span> <br>
+		      	</div>
+			      <br>
+		    	{% endfor %}
+		    </div>
         </div>
     </div>
+  </div>
 </div>
 
