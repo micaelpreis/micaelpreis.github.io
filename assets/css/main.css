@@ -21,6 +21,17 @@ a:hover {
 	text-decoration: none;
 }
 
+.wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+.page-content-wrapper {
+    padding: 15px;
+    overflow: hidden;
+    height: 100%;
+}
+
 /* Home */
 
 .home h4 {

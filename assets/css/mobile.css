@@ -1,14 +1,8 @@
 @media screen and (max-width: 768px) {
-    #sidebar-wrapper {
+    .sidebar-wrapper {
         float: none;
         width: auto;
     }
-
-    /*#page-content-wrapper {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        border: none;
-    }*/
 
     .sidebar-nav {
         border: none;
