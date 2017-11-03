@@ -1,0 +1,83 @@
+* {
+    font-family         : Helvetica Neue;
+}
+
+body {
+    width               : 100%;
+    height              : 100%;
+    font-family         : Helvetica Neue;
+    background-color    : lightgrey;
+}
+
+h1 {
+    font-size   : 28px;
+    font-weight : normal;
+    line-height : 36px;
+}
+
+h4 {
+    font-size   : 18px;
+    font-weight : 500;
+    line-height : 36px;
+}
+
+h5 {
+    font-size   : 16px;
+    font-weight : normal;
+}
+
+strong {
+    font-weight : 500;
+}
+
+.ui.mainview {
+    width   : 100%;
+    height  : 100%;
+}
+
+
+/* Navbar */
+.ui.navbar {
+    background-color    : transparent;
+}
+
+.ui.navbar .left.item {
+    float   : left;
+}
+
+.ui.navbar .right.item {
+    float   : right;
+}
+
+/* Masthead */
+
+.ui.masthead {
+    display         : flex;
+    margin          : 32px auto;
+    align-items     : center;
+    flex-direction  : column;
+}
+
+.ui.masthead .ui.avatar.image {
+    margin-top      : 32px;
+    margin-bottom   : 32px;
+}
+
+/* Images */
+
+.ui.avatar.image {
+    width           : 254px;
+    height          : 254px;
+    overflow        : hidden;
+    border          : solid 4px black;
+    border-radius   : 4px;
+}
+
+.ui.avatar.image img {
+    width   : 100%;
+    height  : auto;
+}
+
+.ui.avatar.circle.image {
+    border-radius   : 50%;
+}
